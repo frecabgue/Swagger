@@ -1,0 +1,1 @@
+{"uuid":"6ba9a9a1-1a67-43b9-9e47-679aa842d88c","name":"com.example.swagger.MainPageTest","children":["46e4c9f2-4590-4915-bf7d-199264118690"],"befores":[{"name":"setUpAll","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1684034767282,"stop":1684034767318}],"afters":[],"start":1684034767151,"stop":1684034781333}
