@@ -11,7 +11,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 
 public class MainPageTest {
-    private final String url = "https://petstore3.swagger.io";
     private WebDriver driver;
 
     @Before
@@ -24,6 +23,7 @@ public class MainPageTest {
     }
     @Given("abro la pagina PetStore")
     public void abroLaPaginaPetStore() throws InterruptedException {
+        String url = "https://petstore3.swagger.io";
         driver.get(url); //navegar hacia la URL
         System.out.println("Title: " + driver.getTitle());
         Thread.sleep(5000);
